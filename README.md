@@ -91,9 +91,9 @@ Follow these steps to set up the **Personal Fitness Tracker** on your local mach
 
 ---
 
-## Linear Regression Model
+## Randon forest Regression Model
 
-The **Personal Fitness Tracker** uses **Linear Regression** to predict the number of calories burned during exercise routines. Here's an overview of how the model works:
+The **Personal Fitness Tracker** uses ** Random Forest Regression** to predict the number of calories burned during exercise routines. Here's an overview of how the model works:
 
 1. **Data Collection**: The exercise and calorie datasets are collected, which include features such as:
    - Exercise type (e.g., running, cycling, weight lifting)
@@ -126,7 +126,3 @@ Two key databases are used in the system:
    - Structure: `exercise_id`, `exercise_name`, `type`, `target_muscle`, `intensity_level`, etc.
 
 Both databases are queried during the prediction phase to help users track and predict calories burned based on the exercise data.
-
-
-
-This version of the `README` highlights **Linear Regression** as the core predictive method for calorie prediction. It provides a more focused explanation of how the system works using this regression model, along with the rest of the system's features. Let me know if you'd like any further changes!
