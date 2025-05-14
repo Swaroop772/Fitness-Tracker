@@ -1,6 +1,6 @@
 # Personal Fitness Tracker
 
-This **Personal Fitness Tracker** is a Python-based application designed to track and predict fitness data, including exercise routines and calories burned. The application uses **Linear Regression** to make predictions based on user inputs and historical data stored in two databases: one for **calories** and the other for **exercise routines**.
+This **Personal Fitness Tracker** is a Python-based application designed to track and predict fitness data, including exercise routines and calories burned. The application uses **Random Forest ** to make predictions based on user inputs and historical data stored in two databases: one for **calories** and the other for **exercise routines**.
 
 ## Table of Contents
 - [Overview](#overview)
@@ -8,7 +8,7 @@ This **Personal Fitness Tracker** is a Python-based application designed to trac
 - [Technologies Used](#technologies-used)
 - [Setup and Installation](#setup-and-installation)
 - [Usage](#usage)
-- [Linear Regression Model](#linear-regression-model)
+- [Random Forest  Model](#RandomForest-regression-model)
 - [Databases](#databases)
 - [Contributors](#contributors)
 
@@ -18,7 +18,7 @@ This **Personal Fitness Tracker** is a Python-based application designed to trac
 
 The **Personal Fitness Tracker** helps users stay on top of their fitness goals by offering the following features:
 
-- **Exercise Routine Prediction**: Using a **Linear Regression** model to predict the best exercise routine based on the user's goals, fitness level, and preferences.
+- **Exercise Routine Prediction**: Using a **Random Forest ** model to predict the best exercise routine based on the user's goals, fitness level, and preferences.
 - **Calories Burned Prediction**: By analyzing previous workouts, the system predicts the estimated calories burned for different types of exercises.
 - **Tracking Progress**: Users can input their exercise activities, and the system will keep track of their progress over time.
 - **Streamlit UI**: A simple and interactive user interface built using **Streamlit** for easy interaction with the application.
@@ -26,7 +26,7 @@ The **Personal Fitness Tracker** helps users stay on top of their fitness goals 
 ## Features
 
 - Track daily exercise routines and calories burned.
-- Predict calories burned based on exercise type and user input using **Linear Regression**.
+- Predict calories burned based on exercise type and user input using **Random Forest **.
 - Generate workout plans and suggest exercises based on user goals.
 - Store and retrieve fitness data using a database for calories and exercises.
 - User-friendly interface using **Streamlit** for easy interaction and visualization.
@@ -36,7 +36,7 @@ The **Personal Fitness Tracker** helps users stay on top of their fitness goals 
 - **Python**: Core language for implementing the logic.
 - **Streamlit**: For building the web-based UI to interact with the system.
 - **Pandas**: For data manipulation and analysis.
-- **Scikit-learn**: For implementing the **Linear Regression** model.
+- **Scikit-learn**: For implementing the **Random Forest ** model.
 - **SQLite/MySQL/PostgreSQL**: Databases to store exercise and calorie data.
 - **Matplotlib**: For visualizing progress and statistics.
 
@@ -78,7 +78,7 @@ Follow these steps to set up the **Personal Fitness Tracker** on your local mach
    The system uses **Streamlit** to create a simple user interface where users can input their fitness data (exercise routines, calories burned, goals, etc.) through an interactive form.
 
 2. **Predicting Calories:**
-   After entering an exercise routine, the system predicts the number of calories burned using a **Linear Regression** model. The predictions are based on user input such as:
+   After entering an exercise routine, the system predicts the number of calories burned using a **Random Forest ** model. The predictions are based on user input such as:
    - Exercise type
    - Duration of exercise
    - Intensity level
@@ -106,11 +106,11 @@ The **Personal Fitness Tracker** uses ** Random Forest Regression** to predict t
    - Additional features can be added for more detailed predictions, like user information (age, weight, etc.).
 
 3. **Model Training**: 
-   - We use **Linear Regression** to train the model on historical data of exercise and calories burned.
+   - We use **Random Forest ** to train the model on historical data of exercise and calories burned.
    - The target variable (calories burned) is predicted based on the input features (exercise type, intensity, and duration).
 
 4. **Prediction**: 
-   - The trained Linear Regression model is used to predict the calories burned based on user input during exercises.
+   - The trained Random Forest  model is used to predict the calories burned based on user input during exercises.
    - The system provides an estimate of calories burned, helping users understand the impact of their workouts.
 
 ---
