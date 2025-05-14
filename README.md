@@ -8,7 +8,7 @@ This **Personal Fitness Tracker** is a Python-based application designed to trac
 - [Technologies Used](#technologies-used)
 - [Setup and Installation](#setup-and-installation)
 - [Usage](#usage)
-- [Random Forest  Model](#RandomForest-regression-model)
+- [Random Forest  Model](#Random-forest-Regression-Model)
 - [Databases](#databases)
 - [Contributors](#contributors)
 
@@ -91,7 +91,7 @@ Follow these steps to set up the **Personal Fitness Tracker** on your local mach
 
 ---
 
-## Randon forest Regression Model
+## Random forest Regression Model
 
 The **Personal Fitness Tracker** uses ** Random Forest Regression** to predict the number of calories burned during exercise routines. Here's an overview of how the model works:
 
